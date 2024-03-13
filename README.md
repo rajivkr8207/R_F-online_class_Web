@@ -1,8 +1,30 @@
-# React + Vite
+# Online Classes Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an online classes website created using React.js. The website includes the following main pages: Home, Courses, Teachers, and Blog.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page:** Provides an overview of the website and highlights featured courses, teachers, and blog posts.
+- **Courses Page:** Lists all available courses with descriptions, instructors, and enrollment options.
+- **Teachers Page:** Displays information about the instructors along with their profiles and courses they teach.
+- **Blog Page:** Showcases educational blog posts related to the courses and industry topics.
+
+## Technologies Used
+
+- React.js
+- HTML/CSS
+- JavaScript
+- Tailwind (optional, if used for styling)
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using npm or yarn:
+
+   ```bash
+   npm install
+   # or
+   yarn install
