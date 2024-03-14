@@ -49,7 +49,7 @@ const Header = () => {
             }
             </ul></div>
 
-          <div>
+          {/* <div>
             <NavLink
               to="/contact"
               activeClassName="bg-gray-200 text-gray-900"
@@ -57,7 +57,7 @@ const Header = () => {
             >
               Contact
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
