@@ -14,7 +14,7 @@ This project is an online classes website created using React.js. The website in
 - React.js
 - HTML/CSS
 - JavaScript
-- Tailwind (optional, if used for styling)
+- Tailwind
 
 ## Getting Started
 
