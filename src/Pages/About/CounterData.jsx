@@ -35,8 +35,8 @@ const CounterData = () => {
                                             <div className="w-[5rem] h-[5rem] text-[#fa744b]">
                                             </div>
                                             <div className=" text-center flex flex-col gap-3">
-                                                <p className='text-7xl font-semibold'> {item.value}</p>
-                                                <h1 className="text-lg font-bold text-[#333333]">{item.name}</h1>
+                                                <p className='text-7xl font-semibold '> {item.value}</p>
+                                                <h1 className="text-lg font-bold text-[#333333] capitalize">{item.name}</h1>
                                             </div>
                                         </div>
                                     

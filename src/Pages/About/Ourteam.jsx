@@ -61,7 +61,7 @@ const Ourteam = () => {
                                         <span className='text-[#fe7d55] text-sm font-semibold flex gap-3 capitalize'>
                                             {item.name}
                                         </span>
-                                        <p className='font-bold text-[#333333] mb-3'>{item.level}</p>
+                                        <p className='font-bold text-[#333333] mb-3 capitalize'>{item.level}</p>
                                         </div>
                                     </div>
                                 )

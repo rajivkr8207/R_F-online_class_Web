@@ -11,10 +11,10 @@ const Header = () => {
       url: "/about",
       text: "about",
     },
-    // {
-    //   url: "/course",
-    //   text: "courses",
-    // },
+    {
+      url: "/course",
+      text: "courses",
+    },
     // {
     //   url: "/teacher",
     //   text: "teacher",
