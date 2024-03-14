@@ -47,7 +47,7 @@ const LearnAnywhere = () => {
       <div className="container my-5 mx-auto flex justify-around flex-wrap">
         <div className="relative lg:w-[50%]">
           <img
-            className=" rounded-t-3xl w-[35rem] h-[34rem]"
+            className=" rounded-t-3xl lg:w-[35rem] sm:w-[32rem] h-[34rem]"
             src={pic4}
             alt=""
             srcset=""
@@ -69,7 +69,7 @@ const LearnAnywhere = () => {
           </div>
         </div>
 
-        <div className="lg:w-[50%] my-auto mx-auto">
+        <div className="lg:w-[50%] my-auto mx-auto pl-5">
           <h1 className="text-5xl font-bold leading-normal ">
             Access to Learn Anytime and Anywhere
           </h1>

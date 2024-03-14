@@ -40,8 +40,8 @@ const Home = () => {
   ])
   return (
     <>
-      <div className="container mx-auto lg:my-0 sm:my-16 lg:h-screen flex items-center ">
-        <div className="flex justify-evenly flex-wrap">
+      <div className="container mx-auto  lg:h-screen flex items-center ">
+        <div className="flex justify-evenly flex-wrap pl-3">
           <div className="lg:w-[50%]  sm:my-3   flex flex-col gap-10">
             <div className="flex flex-col gap-3">
               <h1 className="text-7xl font-bold">Explore Live </h1>
@@ -62,8 +62,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-5 my-3 ">
-            <div className="flex gap-5" >
+        <div className="lg:w-[50%] sm:w-[90%]">
+          <div className="  mx-auto flex flex-col gap-5 my-3 ">
+            <div className="flex gap-5 mx-auto" >
             <div className="relative">
               <div className="absolute top-2  w-[1rem] h-[1rem] rounded-full bg-[#fe7d55]"></div>
               <img
@@ -84,7 +85,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div className="flex gap-5">
+            <div className="flex gap-5 mx-auto">
             <div className="relative">
               <img
                 className="w-[13rem] h-[12rem]"
@@ -92,7 +93,7 @@ const Home = () => {
                 alt=""
                 srcset=""
               />
-              <div className="absolute w-[5rem] h-[5rem] rounded-full bg-[#FFD05C] left-0 ml-[-2rem] mb-[-2rem] bottom-0"></div>
+              <div className="absolute w-[5rem] h-[5rem] rounded-full  bg-[#FFD05C] left-0 ml-[-2rem] mb-[-2rem] bottom-0"></div>
             </div>
             <div className="relative">
             <div className="absolute right-2  w-[1rem] h-[1rem] rounded-full bg-[#fe7d55]"></div>
@@ -104,6 +105,7 @@ const Home = () => {
               />
             </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

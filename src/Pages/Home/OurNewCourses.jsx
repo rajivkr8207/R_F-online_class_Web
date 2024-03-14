@@ -41,7 +41,7 @@ const OurNewCourses = () => {
           <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto">
             {NewCourses.map((item, index) => {
               return (
-                <div className="w-[23rem] bg-white flex flex-col mx-auto my-3">
+                <div className="w-[22rem] bg-white flex flex-col mx-auto my-3">
                   <img src={item.img} className="w-full h-[18rem] " alt="" />
                   <div className="pl-2">
                     <h1 className="text-2xl font-bold capitalize">
@@ -85,7 +85,7 @@ const OurNewCourses = () => {
 
       <div className="container  my-5 mx-auto flex justify-between flex-wrap">
 
-      <div className="lg:w-[50%] my-auto  mx-auto">
+      <div className="lg:w-[50%] my-auto  mx-auto pl-4">
           <h1 className="text-5xl font-bold leading-normal ">
             Talented and Highly Qualified Tutors
           </h1>
@@ -103,9 +103,9 @@ const OurNewCourses = () => {
         </div>
 
 
-        <div className="relative lg:w-[50%] my-3 ">
+        <div className="relative lg:w-[50%] my-3 mx-auto">
           <img
-            className=" rounded-t-3xl w-[35rem] h-[34rem]"
+            className=" rounded-t-3xl lg:w-[35rem] sm:w-[32rem]  h-[34rem]"
             src={pic4}
             alt=""
             srcset=""

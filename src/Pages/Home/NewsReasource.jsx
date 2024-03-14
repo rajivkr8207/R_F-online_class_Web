@@ -104,7 +104,7 @@ const NewsReasource = () => {
 
         <div className="relative lg:w-[50%] my-3 mx-auto ">
           <img
-            className=" rounded-t-3xl w-[25rem] h-[30rem] pl-10"
+            className=" rounded-t-3xl w-[25rem] h-[30rem] lg:pl-10"
             src={team4}
             alt=""
             srcset=""
