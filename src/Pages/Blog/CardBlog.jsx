@@ -58,10 +58,10 @@ const CardBlog = () => {
   return (
     <>
       <div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 sm:grid-cols-1">
           {Cards.map((item, index) => {
             return (
-              <div className="lg:w-[23rem] sm:w-full bg-white flex flex-col mx-auto my-3">
+              <div className="lg:w-[23rem] sm:w-[18rem] bg-white flex flex-col mx-auto my-3">
                 <img src={item.img} className="w-full h-[18rem] " alt="" />
                 <div className="border-x border-b border-[#333333] px-3 py-3">
                   <p className="font-semibold text-[#fe7d55] text-base">
