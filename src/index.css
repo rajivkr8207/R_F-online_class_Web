@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
 @media (max-width: 768px) {
 
     .man_hidden_css{

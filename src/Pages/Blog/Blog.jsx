@@ -16,7 +16,7 @@ const Blog = () => {
         <div>
           <div className='grid  lg:justify-start lg:place-content-end sm:place-content-center  bottom-0  w-full h-[100vh] bg-[url("https://images.pexels.com/photos/6415/apple-desk-office-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")] bg-cover bg-center bg-no-repeat'>
             <div className=" lg:w-[30rem] h-auto my-auto mx-auto  py-auto bg-white lg:mb-8 lg:ml-8">
-              <div className="my-auto mx-5">
+              <div className="my-6 mx-5 ">
                 <h1 className="capitalize lg:text-4xl sm:text-2xl font-bold">
                   CSS Font Size: how to use css font size
                 </h1>
