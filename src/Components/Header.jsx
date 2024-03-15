@@ -7,10 +7,10 @@ const Header = () => {
       url: "/",
       text: "home",
     },
-    {
-      url: "/about",
-      text: "about",
-    },
+    // {
+    //   url: "/about",
+    //   text: "about",
+    // },
     {
       url: "/course",
       text: "courses",

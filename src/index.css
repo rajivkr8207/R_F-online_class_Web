@@ -8,4 +8,7 @@
     .man_hidden_css{
         display: none;
     }
+    .footerlink{
+        flex-direction: column;
+    }
 }
