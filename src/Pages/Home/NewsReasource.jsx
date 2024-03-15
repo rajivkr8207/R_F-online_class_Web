@@ -44,8 +44,8 @@ const NewsReasource = () => {
             <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-auto">
               {NewResourse.map((item, index) => {
                 return (
-                  <div className="w-[10rem] bg-white flex flex-col mx-auto my-3 pb-5">
-                    <img src={item.img} className="w-[10rem] h-[18rem]" alt="" />
+                  <div className="w-[23rem] bg-white flex flex-col mx-auto my-3 pb-5">
+                    <img src={item.img} className="w-full h-[18rem] " alt="" />
                     <div className="py-2 pl-2">
                       <span className="text-[#fe7d55] text-sm font-semibold flex gap-3 capitalize">
                         <span>{item.Date}</span> <span>{item.time}</span>
