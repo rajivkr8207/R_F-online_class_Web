@@ -5,7 +5,7 @@ const Ourstory = () => {
   return (
     <>
       <div className="container  my-10 mx-auto flex justify-between flex-wrap">
-        <div className="relative  lg:w-[50%] my-3 mx-auto">
+        <div className="relative z-[-1]  lg:w-[50%] my-3 mx-auto">
           <img
             className=" rounded-t-3xl w-[30rem] h-[30rem]  lg:pl-10"
             src={team4}
