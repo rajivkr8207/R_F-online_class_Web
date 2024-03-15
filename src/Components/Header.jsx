@@ -15,10 +15,10 @@ const Header = () => {
       url: "/course",
       text: "courses",
     },
-    {
-      url: "/teacher",
-      text: "teacher",
-    },
+    // {
+    //   url: "/teacher",
+    //   text: "teacher",
+    // },
     {
       url: "/blog",
       text: "blog",
