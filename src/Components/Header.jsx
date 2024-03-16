@@ -38,7 +38,7 @@ const Header = () => {
         <ion-icon name="close-outline"></ion-icon> */}
         </div>
 
-        <div className={`flex lg:flex-row flex-col mt-4 my-auto gap-5 mr-10 absolute transition-all duration-300 ease-in bg-white w-full pb-5   ${Oppen ? 'top-10 md:opacity-100': 'top-[-490px] md:opacity-100'}`}>
+        <div className={`flex lg:flex-row flex-col mt-4 my-auto gap-5 mr-10 mobile_absolute transition-all duration-300 ease-in bg-white pb-5   ${Oppen ? 'top-10 md:opacity-100': 'top-[-490px] md:opacity-100'}`}>
           <div className=" mx-auto">
             <ul className="flex  lg:flex-row flex-col  gap-10 my-auto">
               {Navurl.map((item, index) => {
@@ -47,7 +47,7 @@ const Header = () => {
                     <NavLink
                       to={item.url}
                       activeClassName=" text-gray-900"
-                      className="px-o py-2 rounded-md text-base font-medium capitalize cursor-pointer"
+                      className=" py-2 rounded-md text-base font-medium capitalize cursor-pointer"
                     >
                       {item.text}
                     </NavLink>
