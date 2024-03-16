@@ -11,6 +11,7 @@ import Blog from './Pages/Blog/Blog'
 import Course from './Pages/Course/Course'
 import Contact from './Pages/Contact/Contact'
 import EmailFooter from './Components/EmailFooter'
+import Teacher from './Pages/Teacher/Teacher'
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/course' element={<Course />} />
+        <Route path='/teacher' element={<Teacher />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

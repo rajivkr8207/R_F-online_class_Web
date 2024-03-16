@@ -5,6 +5,7 @@ This project is an online classes website created using React.js. The website in
 ## Features
 
 - **Home Page:** Provides an overview of the website and highlights featured courses, teachers, and blog posts.
+- **About Page:** Provides an about of the website and team .
 - **Courses Page:** Lists all available courses with descriptions, instructors, and enrollment options.
 - **Teachers Page:** Displays information about the instructors along with their profiles and courses they teach.
 - **Blog Page:** Showcases educational blog posts related to the courses and industry topics.

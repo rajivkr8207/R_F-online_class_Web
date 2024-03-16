@@ -16,6 +16,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        min-height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+    }
     .mobile_absolute{
         width: 100%;
         position: absolute;

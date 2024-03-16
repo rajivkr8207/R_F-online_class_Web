@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <>
       <div className="my-5">
-        <div className="my-16 text-center">
+        <div className="my-5 text-center">
           <h1 className="capitalize text-5xl font-bold">News & Resource</h1>
           <p className="text-[#333333] font-semibold my-5">
             the latest industry news, interviews, texhnologies, and resource
