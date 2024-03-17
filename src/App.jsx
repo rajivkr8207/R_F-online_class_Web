@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 
 import './App.css'
@@ -12,14 +12,17 @@ import Course from './Pages/Course/Course'
 import Contact from './Pages/Contact/Contact'
 import EmailFooter from './Components/EmailFooter'
 import Teacher from './Pages/Teacher/Teacher'
+import Preloader from './Components/Preloader'
 
+import ClipLoader from "react-spinners/ClipLoader";
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
+     
     <Router>
       <Header />
       <Routes>

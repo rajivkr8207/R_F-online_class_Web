@@ -44,7 +44,7 @@ const Footer = () => {
                 {Navurl.map((item, index) => {
                   return (
                     <li key={index} className="mx-auto">
-                      <NavLink to={item.url} className="capitalize">
+                      <NavLink to={item.url} className={({isActive})=> `text-base font-medium capitalize cursor-pointer ${isActive ? 'text-[#fe7d55] ' : 'text-white '} rounded-md`}>
                         {item.text}
                       </NavLink>
                     </li>

@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import pic4 from "../../assets/4.webp";
+import team1 from "../../assets/team1.webp";
+import team2 from "../../assets/team2.webp";
+import team3 from "../../assets/team3.webp";
+import team4 from "../../assets/team4.webp";
 const OurNewCourses = () => {
   const [NewCourses, setNewCourses] = useState([
     {
-      img: pic4,
+      img: team1,
       title: "The Complete Copywriting and SEO Courses",
       lesson: "17 Lesson",
       description:
@@ -12,7 +16,7 @@ const OurNewCourses = () => {
       authorname: "Albert Flores",
     },
     {
-      img: pic4,
+      img: team4,
       title: "The Complete Digital Marketing Courses",
       lesson: "27 Lesson",
       description:
@@ -21,7 +25,7 @@ const OurNewCourses = () => {
       authorname: "arlene mcCoy",
     },
     {
-      img: pic4,
+      img: team2,
       title: "Build Web apps withg React & firebase",
       lesson: "17 Lesson",
       description:
